@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+
+  }
+
+  h1{
+    display: inline;
+    color: white;
+  }
+
+  .logoPedralbes{
+    margin-right: 40px;
+  }
+    
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  section, aside, nav {
+    padding: 20px;
+  }
+    
+  header, footer {
+    background-color: #00aeef;
+    padding: 20px;
+  }
+  
