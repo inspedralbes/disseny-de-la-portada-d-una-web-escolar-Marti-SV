@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+
+  }
+
+  h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline;
+    color: white;
+  }
+
+  h2{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  a {
+    background: url("https://img.icons8.com/material-two-tone/344/share-3.png") no-repeat 100% 0;
+    background-size: 16px 16px;
+    padding-right: 19px;
+  }
+
+  a:link {
+    color: blueviolet;
+  }
+  
+  a:visited {
+    color: orangered;
+  }
+  
+  a:focus {
+    color: green;
+  }
+  
+  a:hover {
+    color: pink;
+  }
+
+  a:active {
+    color: greenyellow;
+  }
+
+  .logoPedralbes{
+    margin-right: 40px;
+  }
+    
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+    background-color: #5ccffc;
+    border-end-end-radius: #5ccffc;
+    font-family: Verdana, sans-serif;
+    
+  }
+  
+  li {
+    list-style-type: armenian;
+  }
+
+  nav {
+    float: left;
+    width: 20%;
+    background-color: #00aeef;
+    font-family: Verdana, sans-serif;
+    
+  }
+  
+  footer {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    clear: both;
+  }
+  
+  section, aside, nav {
+    padding: 20px;
+  }
+    
+  header, footer {
+    background-color: #00aeef;
+    padding: 20px;
+  }
+  
+  .asideBorder {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  
